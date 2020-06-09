@@ -94,11 +94,13 @@ window.onload = function() {
 
 function placeRandomShips(numShips, chosenLevel) {
     // reset minMoves if level changed
-    const cookies = document.cookie.split(";");
-    const levelCookie = cookies[1].split("=")[1];
+    const cookies = document.cookie;
+    if (cookies.length > 0) {
+        const levelCookie = cookies.split(";")[1].split("=")[1];
 
-    if (chosenLevel !== levelCookie) {
-        movesScore.innerHTML = "Minimum moves made: ";
+        if (chosenLevel !== levelCookie) {
+            movesScore.innerHTML = "Minimum moves made: ";
+        }
     }
 
     // show metrics

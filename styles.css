@@ -1,12 +1,23 @@
 body {
-    background: cornflowerblue;
+    background: cornflowerblue url('ships.png') repeat;
+    background-size: contain;
 }
 
 h1 {
-    font-family: Impact, sans-serif;
-    font-size: xx-large;
+    font-family: "Bauhaus 93", sans-serif;
+    font-size: 4em;
+    color: navy;
+    text-shadow: 1px 1px 5px white, 1px 1px 5px white, 1px -1px 5px white;
     text-align: center;
-    padding: 2px;
+    margin-bottom: 5px;
+}
+
+div h1 {
+    font-family: "Bauhaus 93", sans-serif;
+    font-size: x-large;
+    color: white;
+    text-shadow: none;
+    text-align: center;
 }
 
 div {
@@ -38,17 +49,20 @@ img {
 }
 
 button {
-    font-family: Impact, sans-serif;
+    font-family: "Century Gothic", sans-serif;
     font-size: medium;
+    font-weight: bold;
     display: inline-block;
     text-align: center;
     padding: 5px;
 }
 
 header {
-    font-family: Impact, sans-serif;
+    font: bold large "Century Gothic", sans-serif;
+    color: white;
     height: min-content;
     text-align: center;
+    margin-bottom: 2px;
 }
 
 h3 {
