@@ -1,0 +1,92 @@
+body {
+    background: cornflowerblue;
+}
+
+h1 {
+    font-family: Impact, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    padding: 2px;
+}
+
+div {
+    font-family: "Century Gothic", sans-serif;
+    font-size: medium;
+    color: white;
+    height: 402px;
+    width: 402px;
+    background: navy;
+    position: relative;
+    margin: auto;
+}
+
+.square {
+    height: 51px;
+    width: 51px;
+    position: absolute;
+}
+
+img {
+    display: none;
+}
+
+#buttons {
+    margin: auto;
+    background: cornflowerblue;
+    height: min-content;
+    text-align: center;
+}
+
+button {
+    font-family: Impact, sans-serif;
+    font-size: medium;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+header {
+    font-family: Impact, sans-serif;
+    height: min-content;
+    text-align: center;
+}
+
+h3 {
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+#alerts {
+    height: min-content;
+    background: navy;
+    margin: auto;
+}
+
+#status {
+    height: min-content;
+    width: fit-content;
+    padding: 10px;
+    text-align: center;
+}
+
+#win {
+    height: min-content;
+    width: fit-content;
+    padding: 10px;
+    text-align: center;
+}
+
+#howTo {
+    height: min-content;
+    width: fit-content;
+    padding: 10px;
+}
+
+#levelSelect {
+    height: min-content;
+    width: fit-content;
+    padding: 10px;
+    text-align: center;
+}
